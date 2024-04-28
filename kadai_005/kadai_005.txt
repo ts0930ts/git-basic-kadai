@@ -1,0 +1,31 @@
+@MacBook-Air samurai % mkdir git_challenge
+@MacBook-Air samurai % cd git_challenge 
+@MacBook-Air git_challenge % touch hello_world.txt
+@MacBook-Air git_challenge % vi hello_world.txt 
+@MacBook-Air git_challenge % git add hello_world.txt 
+@MacBook-Air git_challenge % git commit -m "hello_world.txtを追加"
+[main dc69413] hello_world.txtを追加
+1 file changed, 1 insertion(+), 2 deletions(-)
+@MacBook-Air git_challenge % vi hello_world.txt
+@MacBook-Air git_challenge % git add hello_world.txt  
+@MacBook-Air git_challenge % git commit -m "日本語訳を追記" 
+[main 6ed8a98] 日本語訳を追記
+1 file changed, 1 insertion(+)
+@MacBook-Air git_challenge % git log
+commit 6ed8a98d843d12ff015674371915b73265e7bf98 (HEAD -> main)
+Author: samurai-terakoya <ukukgiants@yahoo.co.jp>
+Date:   Mon Apr 29 02:27:43 2024 +0900
+
+    日本語訳を追記
+
+commit dc694135ebf86a5809de5c427cdbad628142bc2b
+Author: samurai-terakoya <ukukgiants@yahoo.co.jp>
+Date:   Mon Apr 29 02:26:42 2024 +0900
+
+    hello_world.txtを追加
+
+@MacBook-Air git_challenge % cd ..
+@MacBook-Air samurai % mkdir kadai_005
+@MacBook-Air samurai % cd kadai_005
+@MacBook-Air kadai_005 % touch kadai_005.txt
+
